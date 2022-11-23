@@ -1,6 +1,6 @@
 def main():
-     f= open("/tmp/mail.txt","w+")
-     f.write("Mail has been called\n")
+     f= open("/opt/app-root/src/index.html","w+")
+     f.write("Caller.py has been invoked\n")
      f.close()
 if __name__== "__main__":
   main()
