@@ -4,7 +4,7 @@ cd /tmp
 
 rm -rf /tmp/test-repo
 
-git clone https://caltinpinar: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@github.com/caltinpinar/test-repo.git
+git clone https://caltinpinar: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@github.com/caltinpinar/test-repo.git
 
 cd test-repo
 
