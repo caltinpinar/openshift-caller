@@ -9,4 +9,3 @@ RUN chgrp -R 0 /tmp/ && \
 
 USER 1001
 
-ENTRYPOINT ["/hello-openshift"]
