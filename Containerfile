@@ -4,8 +4,8 @@ USER 0
 
 COPY ./caller.py /tmp/
 
-RUN chgrp -R 0 /tmp/ && \
-    chmod -R g=u /tmp/
+RUN chgrp -R 0 /tmp/ /opt/app-root/src/ && \
+    chmod -R g=u /tmp/ /opt/app-root/src/
 
 USER 1001
 
